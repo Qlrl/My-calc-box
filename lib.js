@@ -8,8 +8,10 @@ function prime(num) {
 function fact(num) {
     return -1;
 }
+
 module.exports = {
     avg,
     prime,
     fact
 }
+
