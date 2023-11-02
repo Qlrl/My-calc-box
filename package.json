@@ -6,13 +6,13 @@
         "test": "jest"
     },
     "bin": {
-        "calcbox": "/.main.js"
+        "calcbox": "./main.js"
     },
     "author": "",
     "license": "ISC",
     "description": "",
     "devDependencies": {
-        "jest": "^27.2.5"
+        "jest": "^27.5.1"
     },
     "dependencies": {
         "abab": "^2.0.6",
@@ -167,6 +167,7 @@
         "mimic-fn": "^2.1.0",
         "minimatch": "^3.1.2",
         "ms": "^2.1.2",
+        "my-calc-box": "^0.0.1",
         "natural-compare": "^1.4.0",
         "node-int64": "^0.4.0",
         "node-releases": "^2.0.13",
