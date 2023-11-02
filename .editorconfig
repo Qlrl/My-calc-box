@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EditorConfig is awesome: https://EditorConfig.org
 
 # top-most EditorConfig file
@@ -9,4 +10,17 @@ indent_size = 4
 end_of_line = crlf
 charset = utf-8
 trim_trailing_whitespace = false
+=======
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = false
+>>>>>>> e454d3d84d808d6f6e3976ca31b5eadbc2469bb8
 insert_final_newline = false

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function avg(numbers) {
     let s = numbers.reduce((prev, curr) => prev + curr, 0);
     return s / numbers.length;
@@ -32,3 +33,20 @@ module.exports = {
     prime,
     fact
 }
+=======
+function avg(numbers) {
+    let s = numbers.reduce((prev, curr) => prev + curr, 0);
+    return s / numbers.length;
+}
+function prime(num) {
+    return false;
+}
+function fact(num) {
+    return -1;
+}
+module.exports = {
+    avg,
+    prime,
+    fact
+}
+>>>>>>> e454d3d84d808d6f6e3976ca31b5eadbc2469bb8

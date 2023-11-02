@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const { test, expect } = require("@jest/globals");
 const lib = require("./lib");
 test("avg([3, 5, 7]) should be 5", () => {
@@ -17,4 +18,13 @@ test("fact[3] should be 6", () => {
 });
 test("fact[10] should be 3628800", () => {
     expect(lib.fact([10])).toBe(3628800);
+=======
+const { test, expect } = require("@jest/globals");
+const lib = require("./lib");
+test("avg([3, 5, 7]) should be 5", () => {
+    expect(lib.avg([3, 5, 7])).toBe(5);
+});
+test("avg([-5, 5]) should be 0", () => {
+    expect(lib.avg([-5, 5])).toBe(0);
+>>>>>>> e454d3d84d808d6f6e3976ca31b5eadbc2469bb8
 });
